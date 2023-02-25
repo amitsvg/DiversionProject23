@@ -53,84 +53,127 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-<style>
-  #person-name {
-    color: white;
-  }
+  <style>
+    #person-name {
+      color: white;
+    }
 
-  #footer {
-    display: flex;
-    padding: 20px;
-    background: #ebebeb;
-    color: #000;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+    #footer {
+      display: flex;
+      padding: 20px;
+      background: #ebebeb;
+      color: #000;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+    }
 
 
-  .footer {
-    display: grid;
-    place-items: center;
-    padding: 20px;
-    background: #ebebeb;
-    color: #000;
-  }
+    .footer {
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      background: #ebebeb;
+      color: #000;
+    }
 
-  .footer h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.6rem;
-  }
+    .footer h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.6rem;
+    }
 
-  .footer-social a i {
-    color: rgb(10, 26, 208);
-    font-size: 25px;
-    margin-left: 10px;
-    line-height: 40px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-  }
+    .footer-social a i {
+      color: rgb(10, 26, 208);
+      font-size: 25px;
+      margin-left: 10px;
+      line-height: 40px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+    }
 
-  .contact-form {
-    display: grid;
-    flex-direction: column;
-    width: 650px;
-  }
+    .contact-form {
+      display: grid;
+      flex-direction: column;
+      width: 650px;
+    }
 
-  form input,
-  form textarea {
-    padding: 15px;
-    border-radius: 0.5rem;
-    width: 170%;
-    border: none;
-    outline: none;
-    background: hsla(260, 100%, 44%, 0.1);
-    margin-bottom: 1rem;
-    color: var(--text-color);
-  }
+    form input,
+    form textarea {
+      padding: 15px;
+      border-radius: 0.5rem;
+      width: 170%;
+      border: none;
+      outline: none;
+      background: hsla(260, 100%, 44%, 0.1);
+      margin-bottom: 1rem;
+      color: var(--text-color);
+    }
 
-  form textarea {
-    resize: none;
-    height: 200px;
-  }
+    form textarea {
+      resize: none;
+      height: 200px;
+    }
 
-  .contact-button {
-    width: 160px;
-    cursor: pointer;
-    background: #2768d9;
-    color: #fff;
-    justify-content: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-left: 72.5%;
-    margin-right: 50%;
-  }
+    .contact-button {
+      width: 160px;
+      cursor: pointer;
+      background: #2768d9;
+      color: #fff;
+      justify-content: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-left: 72.5%;
+      margin-right: 50%;
+    }
 
-  .contact-button:hover {
-    background: var(--hover);
-  }
-</style>
+    .contact-button:hover {
+      background: var(--hover);
+    }
+
+    .bscard {
+      background-color: rgba(82, 16, 224, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      /* margin: 25%; */
+      text-align: center;
+      transition: all .2s ease-in-out;
+    }
+
+    .img12 {
+      border-radius: 20px;
+    }
+
+    .img12:hover {
+      cursor: pointer;
+      /* transform: scale(1.03); */
+      transition-timing-function: ease-out;
+      transition-timing-function: linear;
+      transition-timing-function: ease;
+      transition-timing-function: ease-in;
+      transition-timing-function: ease-in-out;
+    }
+
+    .textc {
+      font-size: small;
+    }
+
+    .bscard img {
+      transition: 0.6s;
+    }
+    
+
+    .bscard:hover img {
+      transform: scale(1.2);
+    }
+    #header{
+      color: white;
+      background-color: black;
+    }
+  </style>
 
 
 </head>
@@ -211,53 +254,66 @@
 
 
 
-  
+
 
 
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+  <header id="header" class="fixed-top" >
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="#" style="color: black;" class="logo">Healthyfy</a>
+      <a href="#" style="color: white;" class="logo">Healthyfy</a>
 
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
-        <ul class="navbar">
+        <ul class="navbar" style="
+        color: white;">
 
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#services">Detection</a></li>
-          <li><a href="#solutions">Solution</a></li>
-          <li><a href="#testimonials">Motivation</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#footer">Contact</a></li>
+          <li><a href="#hero" style="
+      color: white;">Home</a></li>
+          <li><a href="#services" style="
+      color: white;">Detection</a></li>
+          <li><a href="#solutions" style="
+      color: white;">Solution</a></li>
+          <li><a href="#testimonials" style="
+      color: white;">Motivation</a></li>
+          <li><a href="#contact" style="
+      color: white;">Contact</a></li>
+          <li><a href="#footer" style="
+      color: white;">Contact</a></li>
           {% if current_user.is_authenticated and current_user.usn %}
-          <li class="dropdown"><a href="/login"><span>Welcome {{current_user.usn}}</span> <i
+          <li class="dropdown"><a href="/login" style="
+      color: white;"><span>Welcome {{current_user.usn}}</span> <i
                 class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/logout">Logout</a></li>
+              <li><a href="/logout" style="
+                color: white;">Logout</a></li>
 
             </ul>
           </li>
           {% else %}
-          <li class="dropdown"><a href="#"><span>SIGN IN</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#" style="
+            color: white;"><span>SIGN IN</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/signup">Sign Up</a></li>
+              <li><a href="/signup" style="
+                color: white;">Sign Up</a></li>
 
-              <li><a href="/login">Login</a></li>
+              <li><a href="/login" style="
+                color: white;">Login</a></li>
             </ul>
           </li>
           {% endif %}
-          
-          
-          
-          
+
+
+
+
           <!-- <div class="bx bx-moon" id="darkmode"></div> -->
 
         </ul>
-      </nav><!-- .navbar -->
+      </nav>
+      <!-- .navbar -->
 
       {% block body %}
 
@@ -275,17 +331,17 @@
 
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" style="background-color: black;color:white;" class="d-flex align-items-center">
 
     <div class="container">
       <div class="row">
-        
+
         <div class="col-lg-6 order-2 order-lg-1 hero-img">
           <img src="assets/img/intro-img.svg" class="img-fluid animated" alt="">
         </div>
         <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-2 d-flex flex-column justify-content-center margin-left-5">
-          <h1>Healthyfy </h1>
-          <h2>A one stop solution to all your mental issues ! <br> We analyze the psychological and mental health
+          <h1 style="color:white;">Healthyfy </h1>
+          <h2 style="color:white;">A one stop solution to all your mental issues ! <br> We analyze the psychological and mental health
             conditions and provide effective solutions <h2>
               <div class="d-flex">
                 <a href="#services" class="btn-get-started scrollto" style="text-decoration: none;">Get Started</a>
@@ -305,15 +361,13 @@
 
   <main id="main">
 
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
       <div class="container">
         <div class="section-title">
           <span>About Us</span>
           <h2>About Us</h2>
         </div>
-
         <a href="{{url_for('tohome')}}">NEW APP</a>
-
         <h3 style="color: white; 
         font-size: 23px;">MindCare is a mental health solution that aims to provide users with easy access to resources
           related to mental wellbeing.</h3>
@@ -334,13 +388,11 @@
             </ul>
           </div>
         </div>
-
       </div>
-    </section>
+    </section> -->
 
-    <section id="services" class="services section-bg">
+    <section id="services" class="services section-bg" style="background-color: whitesmoke;">
       <div class="container">
-
         <div class="section-title">
           <span>Services</span>
           <h2>Services</h2>
@@ -349,190 +401,115 @@
 
         <div class="row gy-5" style="display:flex; justify-content: space-around; margin-bottom: 30px;">
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/analysis.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi-activity"></i>
-                </div>
-                <a href="{{url_for('analysis')}}" class="stretched-link">
-                  <h3>Analysis</h3>
-                </a>
-                <p>Pictorial/Graphical representation of various stress related data which include types of stress,
-                  reasons for stress, subreddit posts versus the social karma points, etc.</p>
-                <a href="{{url_for('analysis')}}" class="stretched-link"></a>
-              </div>
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/analyze.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">Analysis</h5>
+              <p class="card-text textc">Pictorial/Graphical representation of various stress related data which include
+                types of stress,
+                reasons for stress, subreddit posts versus the social karma points, etc.</p>
+              <a href="{{url_for('analysis')}}" class="btn btn-primary">Analyze</a>
             </div>
           </div>
 
           <!-- 2nd -->
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/stress-detect.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <a href="/i" class="stretched-link">
-                  <h3>Stress Detection</h3>
-                </a>
-                <p>Predict your stress level by taking Sleeping Hours, Blood Pressure Rate, Respiration Rate and Maximum
-                  Heart Rate as input.</p>
-                <a href="/i" class="stretched-link"></a>
-              </div>
-            </div>
-          </div>
 
-          <!-- diabaties -->
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/stress-detect.jpg" class="img-fluid" alt="img dalo">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <a href="/d" class="stretched-link">
-                  <h3>Diabaties</h3>
-                </a>
-                <p>Predict your stress level by taking Sleeping Hours, Blood Pressure Rate, Respiration Rate and Maximum
-                  Heart Rate as input.</p>
-                <a href="/d" class="stretched-link"></a>
-              </div>
+
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/stress.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">Stress Detection</h5>
+              <p class="card-text textc">Predict your stress level by taking Sleeping Hours, Blood Pressure Rate,
+                Respiration Rate and Maximum
+                Heart Rate as input.</p>
+              <a href="{{url_for('analysis')}}" class="btn btn-primary">Detect</a>
             </div>
           </div>
 
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/stress-detect.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <a href="/c" class="stretched-link">
-                  <h3>Covid19</h3>
-                </a>
-                <p>Predict your stress level by taking Sleeping Hours, Blood Pressure Rate, Respiration Rate and Maximum
-                  Heart Rate as input.</p>
-                <a href="/c" class="stretched-link"></a>
-              </div>
+          <!-- <div class="card bscard" style="width: 18rem;"> -->
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/diabetes.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">Diabities</h5>
+              <p class="card-text textc">Predict your stress level by taking Sleeping Hours, Blood Pressure Rate,
+                Respiration Rate and Maximum
+                Heart Rate as input.</p>
+              <a href="/d" class="btn btn-primary">Check</a>
             </div>
           </div>
 
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/stress-detect.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <a href="/h" class="stretched-link">
-                  <h3>Heart Disease</h3>
-                </a>
-                <p>Predict your stress level by taking Sleeping Hours, Blood Pressure Rate, Respiration Rate and Maximum
-                  Heart Rate as input.</p>
-                <a href="/h" class="stretched-link"></a>
-              </div>
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/covid.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">COVID-19</h5>
+              <p class="card-text textc">Predict your stress level by taking Sleeping Hours, Blood Pressure Rate,
+                Respiration Rate and Maximum
+                Heart Rate as input.</p>
+              <a href="/c" class="btn btn-primary">Check</a>
             </div>
           </div>
 
+
+
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/heart.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">Heart Disease</h5>
+              <p class="card-text textc">Predict your stress level by taking Sleeping Hours, Blood Pressure Rate,
+                Respiration Rate and Maximum
+                Heart Rate as input.</p>
+              <a href="/c" class="btn btn-primary">Detect</a>
+            </div>
+          </div>
 
         </div>
-</div>
-      </section>
-      <section id="solutions" class="services section-bg">
-        <div class="container">
-
+      </div>
+    </section>
+    <section id="solutions" class="services section-bg">
+      <div class="container">
         <div class="section-title" style="margin-top: 10px;">
           <span>Solutions</span>
           <h2>Solutions</h2>
         </div>
+        <div class="row gy-5" style="display:flex; justify-content: space-around; margin-bottom: 30px;">
 
-
-        <div class="row gy-5">
-
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/music.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <a href="{{url_for('music')}}" class="stretched-link">
-                  <h3>Music Therapy</h3>
-                </a>
-                <p>Music is a Therapy which acts as a medicine. Visit this section and improve your mood as Music has
-                  the
-                  healing power..</p>
-                <a href="{{url_for('music')}}" class="stretched-link"></a>
-              </div>
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/music3.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">Music Therapy</h5>
+              <p class="card-text textc">Music is a Therapy which acts as a medicine. Visit this section and improve your mood as Music has
+                the
+                healing power..</p>
+              <a href="{{url_for('music')}}" class="btn btn-primary">Detect</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/games.png" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week"></i>
-                </div>
-                <a href="{{url_for('quizandgame')}}" class="stretched-link">
-                  <h3>Quiz and Fun Games</h3>
-                </a>
-                <p>Quizzes will help the user to increase their knowledge and brainstorming skills. Our Game will help
-                  the
-                  user to test their concentration power.</p>
-                <a href="{{url_for('quizandgame')}}" class="stretched-link"></a>
-              </div>
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/games.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">Quiz and Fun Games</h5>
+              <p class="card-text textc">Quizzes will help the user to increase their knowledge and brainstorming skills. Our Game will help
+                the
+                user to test their concentration power.</p>
+              <a href="{{url_for('quizandgame')}}" class="btn btn-primary">Detect</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
-            <div class="service-item">
-              <div class="img">
-                <img src="services/yoga.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="details position-relative">
-                <div class="icon">
-                  <i class="bi bi-chat-square-text"></i>
-                </div>
-                <a href="{{url_for('exercises')}}" class="stretched-link">
-                  <h3>Exercises</h3>
-                </a>
-                <p>Health is not about the weight you lose but about the life you gain.
-                  Your body and mind both will be flexible and relaxed by doing Yoga</p>
-                <a href="{{url_for('exercises')}}" class="stretched-link"></a>
-              </div>
+          <div class="card bscard" style="width: 18rem;">
+            <img class="card-img-top img12" src="services/exerciseho.jpg" class="img-fluid" alt="img dalo">
+            <div class="card-body">
+              <h5 class="card-title">Exercises</h5>
+              <p class="card-text textc">Health is not about the weight you lose but about the life you gain.
+                Your body and mind both will be flexible and relaxed by doing Yoga</p>
+              <a href="{{url_for('exercises')}}" class="btn btn-primary">Detect</a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
         </div>
-
-
-
-
-
-</div>
-
-
-
+      </div>
     </section><!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
@@ -680,7 +657,6 @@
       <h2>Contact</h2>
       <span>Contact Me</span>
     </div>
-
     <div class="contact-form">
       <form action="">
         <input type="text" placeholder="Your Name">
@@ -764,6 +740,16 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main-home.js"></script>
 
+
+  <!-- <script>
+    $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".header");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+  </script> -->
 </body>
+
 
 </html>

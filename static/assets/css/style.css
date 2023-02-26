@@ -505,11 +505,11 @@ section {
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5f687b;
+  color: #000;
   position: relative;
   z-index: 2;
 }
@@ -851,6 +851,11 @@ section {
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
+    padding: 2rem;
+    /* width: 90vw; */
+    border: 1px solid black;
+    box-shadow: 10px 10px 50px #000;
+    border-radius: 21px;
 }
 
 .testimonials .testimonial-item {

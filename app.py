@@ -46,7 +46,7 @@ app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
 db=SQLAlchemy(app)
-app.secret_key="tandrima"
+app.secret_key="jaan"
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
